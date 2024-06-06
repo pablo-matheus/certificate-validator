@@ -3,7 +3,7 @@ package com.pablomatheus.certificatevalidator.service.impl;
 import com.pablomatheus.certificatevalidator.domain.exception.BusinessException;
 import com.pablomatheus.certificatevalidator.domain.request.PKCS7CertificateRequest;
 import com.pablomatheus.certificatevalidator.domain.response.PKCS7CertificateResponse;
-import com.pablomatheus.certificatevalidator.service.CertificateService;
+import com.pablomatheus.certificatevalidator.service.CertificateGenerationService;
 import lombok.extern.slf4j.Slf4j;
 import org.bouncycastle.cert.X509CertificateHolder;
 import org.bouncycastle.cert.jcajce.JcaCertStore;
@@ -40,7 +40,7 @@ import static com.pablomatheus.certificatevalidator.util.PKCS7Constants.PKCS7_HE
 
 @Slf4j
 @Service
-public class PKCS7CertificateGenerationServiceImpl implements CertificateService {
+public class PKCS7CertificateGenerationServiceImpl implements CertificateGenerationService {
 
     @Override
     public PKCS7CertificateResponse generate(PKCS7CertificateRequest pkcs7CertificateRequest) {

@@ -5,7 +5,7 @@ import com.pablomatheus.certificatevalidator.domain.request.PKCS7CertificateVali
 import com.pablomatheus.certificatevalidator.domain.response.PKCS7CertificateResponse;
 import com.pablomatheus.certificatevalidator.domain.response.PKCS7CertificateValidationResponse;
 import com.pablomatheus.certificatevalidator.domain.response.PKCS7DetailedCertificateResponse;
-import com.pablomatheus.certificatevalidator.service.CertificateService;
+import com.pablomatheus.certificatevalidator.service.CertificateGenerationService;
 import com.pablomatheus.certificatevalidator.service.CertificateValidationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -18,12 +18,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CertificateController {
 
-    private final CertificateService certificateService;
+    private final CertificateGenerationService certificateGenerationService;
     private final CertificateValidationService certificateValidationService;
 
     @PostMapping("/pkcs-7")
     public PKCS7CertificateResponse generate(@RequestBody PKCS7CertificateRequest request) {
-        return certificateService.generate(request);
+        return certificateGenerationService.generate(request);
     }
 
     @PostMapping("/pkcs-7/details")
