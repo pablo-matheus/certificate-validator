@@ -1,8 +1,8 @@
 package com.pablomatheus.certificatevalidator.service.impl;
 
-import com.pablomatheus.certificatevalidator.exception.BusinessException;
-import com.pablomatheus.certificatevalidator.request.PKCS7CertificateRequest;
-import com.pablomatheus.certificatevalidator.response.PKCS7CertificateResponse;
+import com.pablomatheus.certificatevalidator.domain.exception.BusinessException;
+import com.pablomatheus.certificatevalidator.domain.request.PKCS7CertificateRequest;
+import com.pablomatheus.certificatevalidator.domain.response.PKCS7CertificateResponse;
 import com.pablomatheus.certificatevalidator.service.CertificateService;
 import lombok.extern.slf4j.Slf4j;
 import org.bouncycastle.cert.X509CertificateHolder;

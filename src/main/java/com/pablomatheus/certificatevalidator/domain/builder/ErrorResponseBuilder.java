@@ -1,7 +1,7 @@
-package com.pablomatheus.certificatevalidator.builder;
+package com.pablomatheus.certificatevalidator.domain.builder;
 
-import com.pablomatheus.certificatevalidator.exception.BusinessException;
-import com.pablomatheus.certificatevalidator.response.ErrorResponse;
+import com.pablomatheus.certificatevalidator.domain.exception.BusinessException;
+import com.pablomatheus.certificatevalidator.domain.response.ErrorResponse;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 

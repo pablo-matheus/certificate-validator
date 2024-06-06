@@ -1,4 +1,4 @@
-package com.pablomatheus.certificatevalidator.request;
+package com.pablomatheus.certificatevalidator.domain.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

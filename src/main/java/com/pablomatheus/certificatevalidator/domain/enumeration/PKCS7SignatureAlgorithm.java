@@ -1,4 +1,4 @@
-package com.pablomatheus.certificatevalidator.enumeration;
+package com.pablomatheus.certificatevalidator.domain.enumeration;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

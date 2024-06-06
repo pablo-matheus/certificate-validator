@@ -1,8 +1,7 @@
 package com.pablomatheus.certificatevalidator.service;
 
-import com.pablomatheus.certificatevalidator.request.PKCS7CertificateRequest;
-import com.pablomatheus.certificatevalidator.request.PKCS7CertificateValidationRequest;
-import com.pablomatheus.certificatevalidator.response.PKCS7CertificateResponse;
+import com.pablomatheus.certificatevalidator.domain.request.PKCS7CertificateRequest;
+import com.pablomatheus.certificatevalidator.domain.response.PKCS7CertificateResponse;
 
 public interface CertificateService {
 

@@ -1,4 +1,4 @@
-package com.pablomatheus.certificatevalidator.response;
+package com.pablomatheus.certificatevalidator.domain.response;
 
 
 import lombok.AllArgsConstructor;

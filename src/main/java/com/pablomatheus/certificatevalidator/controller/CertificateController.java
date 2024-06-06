@@ -1,10 +1,10 @@
 package com.pablomatheus.certificatevalidator.controller;
 
-import com.pablomatheus.certificatevalidator.request.PKCS7CertificateRequest;
-import com.pablomatheus.certificatevalidator.request.PKCS7CertificateValidationRequest;
-import com.pablomatheus.certificatevalidator.response.PKCS7CertificateResponse;
-import com.pablomatheus.certificatevalidator.response.PKCS7CertificateValidationResponse;
-import com.pablomatheus.certificatevalidator.response.PKCS7DetailedCertificateResponse;
+import com.pablomatheus.certificatevalidator.domain.request.PKCS7CertificateRequest;
+import com.pablomatheus.certificatevalidator.domain.request.PKCS7CertificateValidationRequest;
+import com.pablomatheus.certificatevalidator.domain.response.PKCS7CertificateResponse;
+import com.pablomatheus.certificatevalidator.domain.response.PKCS7CertificateValidationResponse;
+import com.pablomatheus.certificatevalidator.domain.response.PKCS7DetailedCertificateResponse;
 import com.pablomatheus.certificatevalidator.service.CertificateService;
 import com.pablomatheus.certificatevalidator.service.CertificateValidationService;
 import lombok.RequiredArgsConstructor;

@@ -1,4 +1,4 @@
-package com.pablomatheus.certificatevalidator.response;
+package com.pablomatheus.certificatevalidator.domain.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,9 +9,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class PKCS7CertificateValidationResponse {
+public class ErrorResponse {
 
-    private boolean isValid;
-    private String description;
+    private String code;
+    private String message;
 
 }

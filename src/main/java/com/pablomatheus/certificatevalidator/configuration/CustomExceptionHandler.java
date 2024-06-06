@@ -1,7 +1,7 @@
 package com.pablomatheus.certificatevalidator.configuration;
 
-import com.pablomatheus.certificatevalidator.builder.ErrorResponseBuilder;
-import com.pablomatheus.certificatevalidator.exception.BusinessException;
+import com.pablomatheus.certificatevalidator.domain.builder.ErrorResponseBuilder;
+import com.pablomatheus.certificatevalidator.domain.exception.BusinessException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
